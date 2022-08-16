@@ -1,0 +1,17 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+}
+
+.img-hero {
+    background: #E5E5E5;
+}
+
+.h1-hero {
+    margin-bottom: 16px;
+}
+
+.h3-hero {
+    margin-top: 0;
+}
