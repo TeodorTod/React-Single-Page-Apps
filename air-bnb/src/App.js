@@ -1,21 +1,26 @@
 import Card from "./components/Card/Card";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
-import katieZ from "./images/KatieZ.png";
+import data from "./data";
 
 function App() {
+    let singleData = data;
     return (
         <div>
             <Navbar />
             <Hero />
-            <Card
-                img={katieZ}
-                rating={5.0}
-                reviewCount={6}
-                country="USA"
-                title={"Life Lessons with Katie Zaferes"}
-                price={136}
-            />
+            <section className="cards-list">
+            {singleData.map(x => <Card
+                key={x.id}
+                title={x.title}
+                price={x.price}
+                coverImg={x.coverImg}
+                location={x.location}
+                rating={x.stats.rating}
+                reviewCount={x.stats.reviewCount}
+
+            />)}
+            </section>
         </div>
     );
 }
