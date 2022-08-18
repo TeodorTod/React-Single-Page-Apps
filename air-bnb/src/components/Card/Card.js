@@ -4,6 +4,10 @@ import "./Card.css";
 const Card = (props) => {
     return (
         <section className="card-section">
+            {props.openSpots == 0
+             ? <div className="card-badge">SOLD OUT</div>
+            : ''}
+            
             <img className="card-img" src={`../images/${props.coverImg}`} />
             <div className="card-stats">
                 <img className="card-star" src={star} alt="star" />

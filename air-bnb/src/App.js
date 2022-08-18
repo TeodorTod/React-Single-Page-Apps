@@ -18,6 +18,7 @@ function App() {
                 location={x.location}
                 rating={x.stats.rating}
                 reviewCount={x.stats.reviewCount}
+                openSpots={x.openSpots}
 
             />)}
             </section>

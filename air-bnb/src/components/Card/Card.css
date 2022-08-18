@@ -6,6 +6,7 @@
     flex-direction: column; 
     margin-right: 120px;
     margin-left: 90px;
+    position: relative;
 }
 
 .card-img {
@@ -29,5 +30,15 @@
 }
 
 .bold {
+    font-weight: bold;
+}
+
+.card-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
     font-weight: bold;
 }
