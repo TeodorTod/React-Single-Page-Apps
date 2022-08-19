@@ -12,7 +12,7 @@ function App() {
             <section className="cards-list">
             {singleData.map(x => <Card
                 key={x.id}
-                x={x}
+                {...x}
 
             />)}
             </section>
