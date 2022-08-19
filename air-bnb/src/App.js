@@ -12,13 +12,7 @@ function App() {
             <section className="cards-list">
             {singleData.map(x => <Card
                 key={x.id}
-                title={x.title}
-                price={x.price}
-                coverImg={x.coverImg}
-                location={x.location}
-                rating={x.stats.rating}
-                reviewCount={x.stats.reviewCount}
-                openSpots={x.openSpots}
+                x={x}
 
             />)}
             </section>
