@@ -1,0 +1,25 @@
+.footer-div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.text-footer {
+    position: absolute;
+    width: 560px;
+    height: 24px;
+    left: 78px;
+    top: 3px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.7482px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,62 @@
+.main-div {
+    display: flex;
+    height: 75px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.logo {
+    padding-left: 20px;
+    padding: 15px 15px
+}
+
+.text-header {
+    position: absolute;
+    width: 260px;
+    height: 24px;
+    left: 78px;
+    top: 3px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+.project { 
+    position: absolute;
+    width: 189px;
+    height: 14px;
+    left: 1224px;
+    top: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.other {
+    position: absolute;
+    width: 189px;
+    height: 14px;
+    left: 1400px;
+    top: 31px;
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
