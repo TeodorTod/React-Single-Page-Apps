@@ -1,10 +1,8 @@
 .header-div {
+    height: 80px;
     display: flex;
-    position: absolute;
-    width: 2550px;
-    height: 85px;
-    left: 0px;
-    top: 0px;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 
     background: #F55A5A;
 }
@@ -16,4 +14,5 @@
 
 .header-h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -1px;
 }

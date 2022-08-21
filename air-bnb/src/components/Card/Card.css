@@ -1,9 +1,9 @@
 .card-section {
-    width: 175px;
+    margin-bottom: 175px;
     font-size: 14px;
     flex: 0 0 auto;         
     display: flex;          
-    flex-direction: column; 
+    flex-direction:column; 
     margin-right: 120px;
     margin-left: 90px;
     position: relative;

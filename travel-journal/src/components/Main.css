@@ -1,0 +1,103 @@
+.main-div {
+    margin-bottom: 350px;
+    font-size: 14px;
+    position: relative;
+    bottom: 50px;
+}
+
+.img-main {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 40px;
+    top: 100px;
+    border-radius: 90px;
+}
+
+.country {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    left: 400px;
+    top: 119px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+
+    color: #2B283A;
+}
+
+.direction {
+    position: absolute;
+    width: 160px;
+    height: 13px;
+    left: 500px;
+    top: 133px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+
+.name {
+    position: absolute;
+    width: 326px;
+    height: 40px;
+    left: 397px;
+    top: 150px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 30px;
+
+    color: #2B283A;
+
+}
+
+.date {
+    position: absolute;
+    width: 319px;
+    height: 11px;
+    left: 398px;
+    top: 220px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+
+    color: #2B283A;
+
+}
+
+.article {
+    position: absolute;
+    width: 326px;
+    height: 45px;
+    left: 398px;
+    top: 280px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #2B283A;
+}

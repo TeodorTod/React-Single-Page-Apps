@@ -10,11 +10,12 @@ function App() {
             <Navbar />
             <Hero />
             <section className="cards-list">
-            {singleData.map(x => <Card
-                key={x.id}
-                {...x}
+                {singleData.map(x => <Card
+                    key={x.id}
+                    {...x}
 
-            />)}
+                />
+                )}
             </section>
         </div>
     );
