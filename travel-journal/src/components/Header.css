@@ -1,0 +1,11 @@
+.header-div {
+    position: absolute;
+    display: inline-block;
+    width: 2000px;
+    margin: 0 auto;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+
+    background: #F55A5A;
+}
