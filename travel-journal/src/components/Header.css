@@ -1,11 +1,19 @@
 .header-div {
+    display: flex;
     position: absolute;
-    display: inline-block;
-    width: 2000px;
-    margin: 0 auto;
-    height: 55px;
+    width: 2550px;
+    height: 85px;
     left: 0px;
     top: 0px;
 
     background: #F55A5A;
+}
+
+.img-header {
+    margin-left: 630px;
+    margin-right: 20px;
+}
+
+.header-h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
