@@ -6,7 +6,7 @@
 
 .logo {
     padding-left: 20px;
-    padding: 15px 15px
+    padding: 15px;
 }
 
 .text-header {
@@ -27,11 +27,8 @@
 }
 
 .project { 
-    position: absolute;
-    width: 189px;
-    height: 14px;
-    left: 1224px;
-    top: 15px;
+    margin-left: auto;
+    margin-top: 28px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -44,11 +41,9 @@
 }
 
 .other {
-    position: absolute;
-    width: 189px;
-    height: 14px;
-    left: 1400px;
-    top: 31px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 28px;
     text-decoration: none;
 
     font-family: 'Inter';
