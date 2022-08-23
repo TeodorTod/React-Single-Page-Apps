@@ -2,7 +2,7 @@
     position: absolute;
     width: 280px;
     height: 35px;
-    left: 36px;
+    left: 566px;
     top: 101px;
     text-indent: 5px;
 
@@ -14,7 +14,7 @@
     position: absolute;
     width: 280px;
     height: 35px;
-    left: 350px;
+    left: 880px;
     top: 101px;
     text-indent: 5px;
 
@@ -26,7 +26,7 @@
     position: absolute;
     width: 603px;
     height: 40px;
-    left: 36px;
+    left: 566px;
     top: 151px;
     font-family: 'Karla';
     font-style: normal;
@@ -41,12 +41,16 @@
 }
 
 .div-img {
-    margin-top: 140px;
-    margin-bottom: 440px;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 90px;
+    width: 477px;
+    height: 477px;
+}
+
+.container-img {
+    position: absolute;
+    width: 77px;
+    height: 68px;
+    left: 636px;
+    top: 220px;
+
 }
