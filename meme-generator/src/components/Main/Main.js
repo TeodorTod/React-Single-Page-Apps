@@ -1,5 +1,4 @@
 import "./Main.css"
-import memesData from "../../memesData";
 import { useState } from "react";
 
 export default function Main() {
@@ -8,11 +7,19 @@ export default function Main() {
         bottomText: "Walk into Mordor",
         randomImage: "http://i.imgflip.com/1bij.jpg"
     })
-    const [allMemeImages, setAllMemeImages] = useState(memesData)
+    const [allMemeImages, setAllMemeImages] = useState([])
+
+    useState(() => {
+        fetch('https://api.imgflip.com/get_memes')
+            .then(res => res.json())
+            .then(result => {
+                setAllMemeImages(result.data.memes)
+            })
+    }, [])
 
     const memeHandler = (e) => {
         e.preventDefault();
-        const memesArray = allMemeImages.data.memes;
+        const memesArray = allMemeImages;
         const randomNumber = Math.floor(Math.random() * memesArray.length);
         const url = memesArray[randomNumber].url;
         setMeme(prevMeme => ({
@@ -38,8 +45,8 @@ export default function Main() {
     return (
         <main>
             <form>
-                <input className="first-input" type="text" placeholder="VIRUS SCAN?" onChange={topTextChangeHandler}/>
-                <input className="second-input" type="text" placeholder="AINT NOBODY GOT TIME FOT THAT" onChange={bottomTextChangeHandler} />
+                <input className="first-input" type="text" placeholder="One does not simply" onChange={topTextChangeHandler}/>
+                <input className="second-input" type="text" placeholder="Walk into Mordor" onChange={bottomTextChangeHandler} />
                 <button className="button" onClick={memeHandler}>Get a new meme image 🖼</button>
                 <div className="container-img">
                     <img className="div-img" src={meme.randomImage} />
