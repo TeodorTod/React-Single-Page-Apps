@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
