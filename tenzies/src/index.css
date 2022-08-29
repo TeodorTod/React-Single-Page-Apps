@@ -6,6 +6,7 @@ body {
   margin: 0;
   background-color: #0B2434;
   padding: 20px;
+  font-family: 'Karla', sans-serif;
 }
 
 main {
@@ -16,7 +17,7 @@ main {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
