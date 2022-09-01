@@ -40,7 +40,7 @@ export default function SearchMovies() {
             </form>
             <div className="card-list">
                 {movies.filter(movie => movie.poster_path).map(movie => (
-                    <DisplayMovies movie={movie}/>
+                    <DisplayMovies key={movie.id} movie={movie}/>
                 ))}
             </div>
         </>
