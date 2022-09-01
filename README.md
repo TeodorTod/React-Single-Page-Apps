@@ -16,5 +16,8 @@
     <h2 align="center">Tenzies game</h2>
     <img src="./pictures/tenzies.jpg"/>
     <hr/>
+     <h2 align="center">Movie search</h2>
+    <img src="./pictures/movie-search.jpg"/>
+    <hr/>
     </div>
 <p>
