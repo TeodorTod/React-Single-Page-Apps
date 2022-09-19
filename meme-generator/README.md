@@ -8,13 +8,13 @@
     <h2 align="center">First Meme</h2>
     <img src="./pictures/first.jpg"/>
     <hr/>
-    <h2 align="center">Second Memem</h2>
+    <h2 align="center">Second Meme</h2>
     <img src="./pictures/second.jpg"/>
     <hr/>
     </div>
 <p>
 
-<hr/>
+
 <h2>Setup:</h2>
 - <i><b>Download or clone the repository</b></i><br>
 - <i><b>To start: run npm start</b></i>
@@ -26,7 +26,7 @@ Used features of the platform:
 - <i><b>Responsive Design</b></i>
 - <i><b>Add different pictures</b></i>
 - <i><b>Add selected text</b></i>
-- <i><b>Edit txt</b></i>
+- <i><b>Edit text</b></i>
 
 
 <hr/>
@@ -37,9 +37,4 @@ Used technologies:
 - <i><b>HTML</b></i>
 - <i><b>CSS</b></i>
 
-<hr/>
 
-Dependencies, (besides Create-React-App deps): 
-
-- React Icons
-- uniqid
