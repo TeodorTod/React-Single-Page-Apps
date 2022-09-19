@@ -34,6 +34,5 @@ Used technologies:
 
 Dependencies, (besides Create-React-App deps): 
 
-- React Icons
 - nanoid
 - Confetti
